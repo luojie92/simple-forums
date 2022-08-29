@@ -1,0 +1,13 @@
+common: &common
+  HMAC_SECRET: 'ns-secret'
+  SECRET_KEY_BASE: ''
+
+development:
+  <<: *common
+  PRIMARY_DATABASE_URL: ''
+stage:
+  <<: *common
+  PRIMARY_DATABASE_URL: ''
+production:
+  <<: *common
+  PRIMARY_DATABASE_URL: ''

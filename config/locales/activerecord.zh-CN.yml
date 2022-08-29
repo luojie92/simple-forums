@@ -1,0 +1,21 @@
+---
+zh-CN:
+  activerecord:
+    attributes:
+      product:
+        zh_title: 中文标题
+        en_title: 英文标题
+    errors:
+      models:
+        product:
+          attributes:
+            zh_title:
+              taken: 已被使用
+              blank: 不能为空
+            en_title:
+              taken: 已被使用
+              blank: 不能为空
+        user:
+          attributes:
+            username:
+              taken: 已被使用

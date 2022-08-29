@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development: &development
+  <<: *default
+  url: 'postgres://root:123456@localhost:5432/simple-forums'
+
+stage:
+  <<: *development
+
+production:
+  <<: *development
+  url: <%= ENV['PRIMARY_DATABASE_URL'] %>
+

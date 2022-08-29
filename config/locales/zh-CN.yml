@@ -1,0 +1,27 @@
+zh-CN:
+  invoice: '发票'
+  charge: '冲值'
+  unpaid: '未支付'
+  partially_paid: '部分支付'
+  paid: '已支付'
+  refunded: '已退款'
+  product:
+    pending: '等待搜品'
+    in_progress: '搜品中'
+    success: '搜品成功'
+    failed: '搜品失败'
+    confirmed: '确认处理'
+    price_offered: '报价成功'
+  shopify_order:
+    pending: '未处理'
+    in_progress: '处理中'
+    shipped: '已处理'
+    hide: '隐藏'
+    abnormal: '未归类'
+    pre_fulfill: '提前履行'
+  invoice_order:
+    submit: '待确认'
+    approved: '已确认'
+    shipped: '处理中'
+    pre_fulfill: '提前履行'
+
